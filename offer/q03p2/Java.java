@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.java;
+package cn.alessa0.lc.offer.q03p2;
 
 /**
  * 剑指 Offer 03 Part II. 不修改数组找出重复的数字
@@ -11,7 +11,7 @@ package cn.alessa0.lc.offer.java;
  * @version 0.0.1
  * @since 2021/1/11 18:48
  */
-public class Solution03_II {
+public class Java {
     /**
      * Time  O(n)
      * Space O(n)

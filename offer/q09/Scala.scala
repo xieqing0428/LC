@@ -1,6 +1,4 @@
-package cn.alessa0.lc.offer.scala
-
-import scala.collection.mutable
+package cn.alessa0.lc.offer.q09
 
 /**
  * 剑指 Offer 09. 用两个栈实现队列
@@ -13,17 +11,12 @@ import scala.collection.mutable
  * @version 0.0.1
  * @since 2021/1/20 16:01
  */
-object Solution09 {
-  def doSomething(): Unit = {
-    val obj = new CQueue
-    obj.appendTail(1)
-    obj.deleteHead()
-  }
-}
+class Scala {
 
-class CQueue() {
-  private val in = mutable.Stack[Int]()
-  private val out = mutable.Stack[Int]()
+  import scala.collection.mutable
+
+  private val in = new mutable.Stack[Int]()
+  private val out = new mutable.Stack[Int]()
 
   def appendTail(value: Int): Unit = {
     in.push(value)

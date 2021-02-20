@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.scala
+package cn.alessa0.lc.offer.q05
 
 /**
  * 剑指 Offer 05. 替换空格
@@ -9,7 +9,7 @@ package cn.alessa0.lc.offer.scala
  * @version 0.0.1
  * @since 2021/1/12 17:21
  */
-object Solution05 {
+object Scala {
   /**
    * @param s INPUT
    * @return

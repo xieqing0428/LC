@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.java;
+package cn.alessa0.lc.offer.q06;
 
 import java.util.Stack;
 
@@ -11,7 +11,7 @@ import java.util.Stack;
  * @version 0.0.1
  * @since 2021/1/12 17:56
  */
-public class Solution06 {
+public class Java {
 
     /**
      * Time  O(n)
@@ -57,11 +57,4 @@ public class Solution06 {
         }
         return print;
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) { val = x; }
 }

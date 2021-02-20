@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.java;
+package cn.alessa0.lc.offer.q09;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -14,20 +14,11 @@ import java.util.Deque;
  * @version 0.0.1
  * @since 2021/1/20 15:01
  */
-public class Solution09 {
-    public void doSomething() {
-        CQueue obj = new CQueue();
-        obj.appendTail(1);
-        obj.deleteHead();
-    }
-}
-
-class CQueue {
-
+public class Java {
     private final Deque<Integer> in;
     private final Deque<Integer> out;
 
-    public CQueue() {
+    public Java() {
         this.in = new ArrayDeque<>();
         this.out = new ArrayDeque<>();
     }

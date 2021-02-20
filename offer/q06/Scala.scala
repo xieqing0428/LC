@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.scala
+package cn.alessa0.lc.offer.q06
 
 /**
  * 剑指 Offer 06. 从尾到头打印链表
@@ -9,7 +9,7 @@ package cn.alessa0.lc.offer.scala
  * @version 0.0.1
  * @since 2021/1/12 18:06
  */
-object Solution06 {
+object Scala {
   def reversePrint(head: ListNode): Array[Int] = {
     var node = head
     val re = scala.collection.mutable.Stack[Int]()
@@ -19,9 +19,4 @@ object Solution06 {
     }
     re.toArray
   }
-}
-
-class ListNode(var _x: Int = 0) {
-  var next: ListNode = _
-  var x: Int = _x
 }

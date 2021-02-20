@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.scala
+package cn.alessa0.lc.offer.q04
 
 /**
  * 剑指 Offer 04. 二维数组中的查找
@@ -14,7 +14,7 @@ package cn.alessa0.lc.offer.scala
  * @version 0.0.1
  * @since 2021/1/12 16:36
  */
-object Solution04 {
+object Scala {
 
   /**
    * Time  O(nlogn)

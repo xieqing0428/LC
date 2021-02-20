@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.java;
+package cn.alessa0.lc.offer.q03;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -20,7 +20,7 @@ import java.util.Set;
  * @version 0.0.1
  * @since 2021/1/11 18:48
  */
-public class Solution03 {
+public class Java {
 
     /**
      * Time  O(nlogn)

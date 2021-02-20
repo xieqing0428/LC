@@ -1,6 +1,4 @@
-package cn.alessa0.lc.offer.scala
-
-import scala.collection.mutable
+package cn.alessa0.lc.offer.q03
 
 /**
  * 剑指 Offer 03. 数组中重复的数字
@@ -18,7 +16,7 @@ import scala.collection.mutable
  * @version 0.0.1
  * @since 2021/1/11 18:48
  */
-object Solution03 {
+object Scala {
 
   /**
    * Time  O(nlogn)
@@ -44,6 +42,7 @@ object Solution03 {
    * @return int
    */
   def findRepeatNumber02(nums: Array[Int]): Int = {
+    import scala.collection.mutable
     if (nums == null || nums.length < 2) return -1
     val result = new mutable.HashSet[Int]()
     nums.foreach(x => {

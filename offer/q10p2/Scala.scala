@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.scala
+package cn.alessa0.lc.offer.q10p2
 
 /**
  * 剑指 Offer 10- II. 青蛙跳台阶问题
@@ -12,7 +12,7 @@ package cn.alessa0.lc.offer.scala
  * @version 0.0.1
  * @since 2021/1/21 17:55
  */
-object Solution10_II {
+object Scala {
   /**
    * Time O(2<sup>n</sup>)
    * Space O(1)

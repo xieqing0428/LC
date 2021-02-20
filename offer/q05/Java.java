@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.java;
+package cn.alessa0.lc.offer.q05;
 
 /**
  * 剑指 Offer 05. 替换空格
@@ -9,7 +9,7 @@ package cn.alessa0.lc.offer.java;
  * @version 0.0.1
  * @since 2021/1/12 17:18
  */
-public class Solution05 {
+public class Java {
     public String replaceSpace01(String s) {
         if (s == null || s.length() == 0) {
             return s;

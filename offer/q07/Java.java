@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.java;
+package cn.alessa0.lc.offer.q07;
 
 import java.util.Stack;
 
@@ -12,7 +12,7 @@ import java.util.Stack;
  * @version 0.0.1
  * @since 2021/1/13 18:12
  */
-public class Solution07 {
+public class Java {
     private int pre = 0;
     private int in = 0;
 
@@ -79,12 +79,4 @@ public class Solution07 {
         }
         return root;
     }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) { val = x; }
 }

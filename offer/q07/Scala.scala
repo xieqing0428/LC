@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.scala
+package cn.alessa0.lc.offer.q07
 
 import scala.collection.mutable
 
@@ -13,7 +13,8 @@ import scala.collection.mutable
  * @version 0.0.1
  * @since 2021/1/13 18:12
  */
-object Solution07 {
+object Scala {
+
   /**
    * Time  O(n)
    * Space O(n)
@@ -74,10 +75,4 @@ object Solution07 {
     }
     root
   }
-}
-
-class TreeNode(var _value: Int) {
-  var value: Int = _value
-  var left: TreeNode = _
-  var right: TreeNode = _
 }

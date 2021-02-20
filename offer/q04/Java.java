@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.java;
+package cn.alessa0.lc.offer.q04;
 
 /**
  * 剑指 Offer 04. 二维数组中的查找
@@ -14,7 +14,7 @@ package cn.alessa0.lc.offer.java;
  * @version 0.0.1
  * @since 2021/1/12 16:36
  */
-public class Solution04 {
+public class Java {
 
     /**
      * Time  O(nlogn)

@@ -1,4 +1,4 @@
-package cn.alessa0.lc.offer.java;
+package cn.alessa0.lc.offer.q10p2;
 
 /**
  * 剑指 Offer 10- II. 青蛙跳台阶问题
@@ -12,7 +12,7 @@ package cn.alessa0.lc.offer.java;
  * @version 0.0.1
  * @since 2021/1/21 10:13
  */
-public class Solution10_II {
+public class Java {
     /**
      * Time O(2^n)
      * Space O(1)
