@@ -18,7 +18,7 @@ public class Java {
      * Time  O(n)
      * Space O(n)
      *
-     * @param n 入参
+     * @param n 入参 2 <= n <= 58
      * @return 结果
      */
     public int cuttingRope01(int n) {
@@ -50,7 +50,7 @@ public class Java {
      * Time  O(n)
      * Space O(1)
      *
-     * @param n 入参
+     * @param n 入参 2 <= n <= 58
      * @return 结果
      */
     public int cuttingRope02(int n) {
@@ -70,7 +70,7 @@ public class Java {
      * Time  O(1)
      * Space O(1)
      *
-     * @param n 入参
+     * @param n 入参 2 <= n <= 58
      * @return 结果
      */
     public int cuttingRope03(int n) {

@@ -20,7 +20,7 @@ public class Java {
      * Time  O(nlogn)
      * Space O(1)
      *
-     * @param matrix INPUT
+     * @param matrix INPUT 0 <= n <= 1000;0 <= m <= 1000
      * @param target TARGET
      * @return boolean
      */

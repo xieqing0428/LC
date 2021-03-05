@@ -17,10 +17,10 @@ package cn.alessa0.lc.offer.q10;
  */
 public class Java {
     /**
-     * Time O(2^n)
+     * Time O(2<sup>n</sup>)
      * Space O(1)
      *
-     * @param n 第n项
+     * @param n 0 <= n <= 100
      * @return 结果
      */
     public int fib01(int n) {
@@ -34,7 +34,7 @@ public class Java {
      * Time O(n)
      * Space O(n)
      *
-     * @param n 第n项
+     * @param n 0 <= n <= 100
      * @return 结果
      */
     public int fib02(int n) {

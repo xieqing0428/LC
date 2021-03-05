@@ -16,7 +16,7 @@ object Scala {
    * Time  O(n)
    * Space O(n)
    *
-   * @param nums INPUT
+   * @param nums INPUT 2 <= n <= 100000
    * @return int
    */
   def findRepeatNumber01(nums: Array[Int]): Int = {
@@ -36,7 +36,7 @@ object Scala {
    * Time  O(nlogn)
    * Space O(1)
    *
-   * @param nums INPUT[2, 3, 1, 0, 2, 5, 3]
+   * @param nums INPUT 2 <= n <= 100000
    * @return int
    */
   def findRepeatNumber02(nums: Array[Int]): Int = {

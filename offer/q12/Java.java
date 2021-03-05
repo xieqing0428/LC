@@ -18,6 +18,14 @@ package cn.alessa0.lc.offer.q12;
  * @since 2021/3/2 08:38
  */
 public class Java {
+    /**
+     * Time  O(3<sup>K</sup>MN)
+     * Space O(K)~O(MN)
+     *
+     * @param board 1 <= board.length <= 200;1 <= board[i].length <= 200
+     * @param word  路径
+     * @return 结果
+     */
     public boolean exist(char[][] board, String word) {
         char[] words = word.toCharArray();
         for (int i = 0; i < board.length; i++) {

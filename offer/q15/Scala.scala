@@ -19,7 +19,7 @@ object Scala {
    * Time  O(n)
    * Space O(1)
    *
-   * @param n 入参
+   * @param n 入参 必须是长度为 32 的 二进制串
    * @return 结果
    */
   def hammingWeight(n: Int): Int = {

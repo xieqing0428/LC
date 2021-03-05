@@ -22,9 +22,9 @@ public class Java {
      * Time  O(mn)
      * Space O(mn)
      *
-     * @param m 横坐标
-     * @param n 纵坐标
-     * @param k 总数
+     * @param m 横坐标 m <= 100
+     * @param n 纵坐标 1 <= n
+     * @param k 总数 0 <= k <= 20
      * @return 结果
      */
     public int movingCount(int m, int n, int k) {

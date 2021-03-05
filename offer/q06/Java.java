@@ -16,6 +16,8 @@ public class Java {
     /**
      * Time  O(n)
      * Space O(n)
+     * <p>
+     * 0 <= 链表长度 <= 10000
      *
      * @param head Head Node
      * @return int[]
@@ -39,6 +41,8 @@ public class Java {
     /**
      * Time  O(n)
      * Space O(n)
+     * <p>
+     * 0 <= 链表长度 <= 10000
      *
      * @param head Head Node
      * @return int[]

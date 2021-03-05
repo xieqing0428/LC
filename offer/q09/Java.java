@@ -23,6 +23,11 @@ public class Java {
         this.out = new ArrayDeque<>();
     }
 
+    /**
+     * 最多会对 appendTail、deleteHead 进行 10000 次调用
+     *
+     * @param value 1 <= values <= 10000
+     */
     public void appendTail(int value) {
         in.push(value);
     }

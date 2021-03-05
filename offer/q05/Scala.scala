@@ -21,7 +21,7 @@ object Scala {
   /**
    * Time  O(n)
    * Space O(n)
-   *
+   * 0 <= s 的长度 <= 10000
    * @param s INPUT
    * @return
    */

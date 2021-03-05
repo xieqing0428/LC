@@ -18,7 +18,7 @@ object Scala {
    * Time  O(n)
    * Space O(n)
    *
-   * @param n 入参
+   * @param n 入参 2 <= n <= 58
    * @return 结果
    */
   def cuttingRope01(n: Int): Int = {
@@ -44,7 +44,7 @@ object Scala {
    * Time  O(n)
    * Space O(1)
    *
-   * @param n 入参
+   * @param n 入参 2 <= n <= 58
    * @return 结果
    */
   def cuttingRope02(n: Int): Int = {
@@ -63,7 +63,7 @@ object Scala {
    * Time  O(1)
    * Space O(1)
    *
-   * @param n 入参
+   * @param n 入参 2 <= n <= 58
    * @return 结果
    */
   def cuttingRope03(n: Int): Int = {

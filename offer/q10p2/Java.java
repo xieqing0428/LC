@@ -17,7 +17,7 @@ public class Java {
      * Time O(2^n)
      * Space O(1)
      *
-     * @param n 第n项
+     * @param n 0 <= n <= 100
      * @return 结果
      */
     public int numWays01(int n) {
@@ -31,7 +31,7 @@ public class Java {
      * Time O(n)
      * Space O(n)
      *
-     * @param n 第n项
+     * @param n 0 <= n <= 100
      * @return 结果
      */
     public int numWays02(int n) {

@@ -19,6 +19,8 @@ object Scala {
    * Time  O(n)
    * Space O(n)
    *
+   * 0 <= 节点个数 <= 5000
+   *
    * @param preorder Pre
    * @param inorder  In
    * @return cn.alessa0.offer.java.TreeNode
@@ -48,6 +50,8 @@ object Scala {
   /**
    * Time  O(n)
    * Space O(n)
+   *
+   * 0 <= 节点个数 <= 5000
    *
    * @param preorder Pre
    * @param inorder  In

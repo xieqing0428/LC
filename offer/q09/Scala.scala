@@ -18,6 +18,11 @@ class Scala {
   private val in = new mutable.Stack[Int]()
   private val out = new mutable.Stack[Int]()
 
+  /**
+   * 最多会对 appendTail、deleteHead 进行 10000 次调用
+   *
+   * @param value 1 <= values <= 10000
+   */
   def appendTail(value: Int): Unit = {
     in.push(value)
   }

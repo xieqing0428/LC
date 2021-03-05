@@ -12,6 +12,13 @@ package cn.alessa0.lc.offer.q11
  * @version 0.0.1
  */
 object Scala {
+  /**
+   * Time O(logn) ~ O(n)
+   * Space O(1)
+   *
+   * @param numbers 入参数组
+   * @return 数组最小值
+   */
   def minArray(numbers: Array[Int]): Int = {
     if (numbers == null || numbers.length <= 0) return Integer.MIN_VALUE
     var left = 0

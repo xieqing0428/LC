@@ -26,7 +26,7 @@ public class Java {
      * Time  O(nlogn)
      * Space O(1)
      *
-     * @param nums INPUT[2, 3, 1, 0, 2, 5, 3]
+     * @param nums INPUT 2 <= n <= 100000
      * @return int
      */
     public int findRepeatNumber01(int[] nums) {
@@ -46,7 +46,7 @@ public class Java {
      * Time  O(n)
      * Space O(n)
      *
-     * @param nums INPUT[2, 3, 1, 0, 2, 5, 3]
+     * @param nums INPUT 2 <= n <= 100000
      * @return int
      */
     public int findRepeatNumber02(int[] nums) {
@@ -66,7 +66,7 @@ public class Java {
      * Time  O(n)
      * Space O(1)
      *
-     * @param nums INPUT[2, 3, 1, 0, 2, 5, 3]
+     * @param nums INPUT 2 <= n <= 100000
      * @return int
      */
     public int findRepeatNumber03(int[] nums) {

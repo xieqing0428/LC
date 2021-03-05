@@ -19,7 +19,7 @@ public class Java {
      * Time  O(n)
      * Space O(1)
      *
-     * @param n 入参
+     * @param n 入参 必须是长度为 32 的 二进制串
      * @return 结果
      */
     public int hammingWeight01(int n) {
@@ -35,7 +35,7 @@ public class Java {
      * Time  O(n)
      * Space O(1)
      *
-     * @param n 入参
+     * @param n 入参 必须是长度为 32 的 二进制串
      * @return 结果
      */
     public int hammingWeight02(int n) {

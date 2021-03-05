@@ -11,7 +11,7 @@ object Scala {
    * Time O(2<sup>n</sup>)
    * Space O(1)
    *
-   * @param n 第n项
+   * @param n 0 <= n <= 100
    * @return 结果
    */
   def fib01(n: Int): Int = {
@@ -23,7 +23,7 @@ object Scala {
    * Time O(n)
    * Space O(n)
    *
-   * @param n 第n项
+   * @param n 0 <= n <= 100
    * @return 结果
    */
   def fib02(n: Int): Int = {

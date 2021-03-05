@@ -18,6 +18,14 @@ package cn.alessa0.lc.offer.q12
  * @version 0.0.1
  */
 object Scala {
+  /**
+   * Time  O(3<sup>K</sup>MN)
+   * Space O(K)~O(MN)
+   *
+   * @param board 1 <= board.length <= 200;1 <= board[i].length <= 200
+   * @param word  路径
+   * @return 结果
+   */
   def exist(board: Array[Array[Char]], word: String): Boolean = {
     val words = word.toCharArray
     for (i <- board.indices) {

@@ -16,8 +16,8 @@ object Scala {
    * Time  O(logn)
    * Space O(1)
    *
-   * @param x 底
-   * @param n 幂
+   * @param x 底 -100.0 < x < 100.0
+   * @param n 幂 n 是 32 位有符号整数，其数值范围是 [−231, 231 − 1]
    * @return 果
    */
   def myPow(x: Double, n: Int): Double = {

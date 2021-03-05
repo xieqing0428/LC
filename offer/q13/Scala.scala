@@ -19,9 +19,9 @@ object Scala {
    * Time  O(mn)
    * Space O(mn)
    *
-   * @param m 横坐标
-   * @param n 纵坐标
-   * @param k 总数
+   * @param m 横坐标 m <= 100
+   * @param n 纵坐标 1 <= n
+   * @param k 总数 0 <= k <= 20
    * @return 结果
    */
   def movingCount(m: Int, n: Int, k: Int): Int = {

@@ -19,6 +19,8 @@ public class Java {
     /**
      * Time  O(n)
      * Space O(n)
+     * <p>
+     * 0 <= 节点个数 <= 5000
      *
      * @param preorder Pre
      * @param inorder  In
@@ -48,6 +50,8 @@ public class Java {
     /**
      * Time  O(n)
      * Space O(n)
+     * <p>
+     * 0 <= 节点个数 <= 5000
      *
      * @param preorder Pre
      * @param inorder  In

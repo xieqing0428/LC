@@ -10,6 +10,15 @@ package cn.alessa0.lc.offer.q06
  * @since 2021/1/12 18:06
  */
 object Scala {
+  /**
+   * Time  O(n)
+   * Space O(n)
+   *
+   * 0 <= 链表长度 <= 10000
+   *
+   * @param head Head Node
+   * @return int[]
+   */
   def reversePrint(head: ListNode): Array[Int] = {
     var node = head
     val re = scala.collection.mutable.Stack[Int]()
