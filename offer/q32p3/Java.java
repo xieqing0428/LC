@@ -29,7 +29,7 @@ public class Java {
         while (!tmp.isEmpty()) {
             List<Integer> resTmp = new ArrayList<>();
             for (int i = tmp.size(); i > 0; i--) {
-                TreeNode cur = tmp.poll();
+                TreeNode cur = Objects.requireNonNull(tmp.poll());
                 resTmp.add(cur.val);
                 if (cur.left != null) {
                     tmp.add(cur.left);

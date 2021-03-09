@@ -1,9 +1,6 @@
 package cn.alessa0.lc.offer.q32p2;
 
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * 剑指 Offer 32 - II. 从上到下打印二叉树 II
@@ -31,7 +28,7 @@ public class Java {
         while (!tmp.isEmpty()) {
             List<Integer> resTmp = new ArrayList<>();
             for (int i = tmp.size(); i > 0; i--) {
-                TreeNode cur = tmp.poll();
+                TreeNode cur = Objects.requireNonNull(tmp.poll());
                 resTmp.add(cur.val);
                 if (cur.left != null) {
                     tmp.add(cur.left);
