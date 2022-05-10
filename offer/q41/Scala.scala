@@ -28,7 +28,7 @@ class Scala {
    * Time  O(logn)
    * Space O(n)
    */
-  def addNum(num: Int) {
+  def addNum(num: Int): Unit = {
     if (left.isEmpty || num < left.head) {
       left.enqueue(num)
       if (left.size > right.size + 1) right.enqueue(left.dequeue())
